@@ -1,0 +1,57 @@
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+/* 1. Make the nav class container flex and have it displayed in a row to the right of the browser */
+
+
+/* 2. add media queries for both 920px and 600px breakpoints with the following properties:*/
+
+/* 920px:
+space around nav items
+font size 30px
+color: red */
+
+/* 600px:
+column display
+center 
+background color blue 
+font color white 
+hover color yellow */
+
+
+/* 3. Make the div class main flex with the following properties:
+
+row-reverse
+wrap 
+space-evenly */
+
+
+/* 4. Give the div classes of specials the following properties with your own values:
+
+border 
+margin 
+padding
+width 
+text-align */
+
+
+/* 5. Create 3 media queries for the div class main for the following breakpoints:
+600px
+768px
+920px
+
+add your own properties for each of the breakpoints. */
+
+/* 6. Change the order of the letters in the block-order div to the following:
+CADB */
+
+
+/*Bonus: Access font-awesome https://fontawesome.com/icons?d=gallery to add 4 social media icons of your choice in the div class social.
+
+Add different flex properties of your choice and make it responsive based on the following break points:
+
+600px
+768px
+920px
+*/
