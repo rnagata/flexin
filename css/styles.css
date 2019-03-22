@@ -110,10 +110,29 @@ CADB */
 }
 
 /*Bonus: Access font-awesome https://fontawesome.com/icons?d=gallery to add 4 social media icons of your choice in the div class social.
-
 Add different flex properties of your choice and make it responsive based on the following break points:
-
 600px
 768px
 920px
 */
+@media only screen and (max-width: 920px){
+    .social{
+        display: flex;
+        background: crimson;
+        justify-content: space-evenly;
+        padding: 10px;
+        font-size: 30px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 768px){
+    .social{
+        border: 2px solid orange;
+    }
+}
+@media only screen and (max-width: 600px){
+    .social{
+        border: 5px solid orange;
+    }
+}
+
