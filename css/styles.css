@@ -3,45 +3,78 @@ body{
 }
 
 /* 1. Make the nav class container flex and have it displayed in a row to the right of the browser */
-
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 /* 2. add media queries for both 920px and 600px breakpoints with the following properties:*/
-
 /* 920px:
 space around nav items
 font size 30px
 color: red */
-
 /* 600px:
 column display
 center 
 background color blue 
 font color white 
 hover color yellow */
+@media only screen and (max-width: 920px){
+    a {
+        padding: 10px;
+        color: red;
+        font-size: 30px;
+    }
+}
 
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+    }
+    
+    a {
+        color: white;
+    }
+
+    a:hover{
+        color: yellow;
+    }
+    
+}
 
 /* 3. Make the div class main flex with the following properties:
-
 row-reverse
 wrap 
 space-evenly */
-
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 /* 4. Give the div classes of specials the following properties with your own values:
-
 border 
 margin 
 padding
 width 
 text-align */
-
+.specials{
+    border: 2px solid orange;
+    margin: 2px 2px 2px 2px;
+    padding: 3px;
+    width: 140px;
+    text-align: center;
+}
 
 /* 5. Create 3 media queries for the div class main for the following breakpoints:
 600px
 768px
 920px
-
 add your own properties for each of the breakpoints. */
+
 
 /* 6. Change the order of the letters in the block-order div to the following:
 CADB */
